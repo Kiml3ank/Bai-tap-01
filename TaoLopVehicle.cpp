@@ -75,7 +75,7 @@ int main() {
     Vehicle xe1("V001", "Toyota", "Corolla", 2020, "Xanh");
     xe1.displayInfo();
   
-    int currentYear = 2024; // You can change this to the actual current year
+    int currentYear = 2024;
     if (xe1.isVintage(currentYear)) {
         cout << "Xe nay la xe co." << endl;
     } else {
